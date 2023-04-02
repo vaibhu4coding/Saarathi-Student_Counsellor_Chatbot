@@ -19,6 +19,6 @@ def Saarathi(Student_Query):
 SaarathiGUI = gradio.Interface(fn=Saarathi, 
                                inputs = gradio.Textbox(label="Student"), 
                                outputs = gradio.Textbox(label="Counselor"), 
-                               title = "Saarathi:Guiding you towards success")
+                               title = "Saarathi:Get guidance at your fingertips with our student counselor chatbot")
 
-SaarathiGUI.launch()
+SaarathiGUI.launch(share=True)
